@@ -18,9 +18,16 @@ The architecture includes:
 ## Folder Structure
 - `src/` — main VHDL source files  
 - `simu/` — testbenches and simulation files  
-- `docs/` — contains the architecture diagram of the system  
+- `docs/` — contains the architecture diagram of the system
+- - `constraints/` — FPGA pin assignments file 
 
 ## Tools Used
 - **Xilinx Vivado** for synthesis and simulation.
 - **Nexys A7 FPGA board (Artix-7)** for hardware implementation  
 
+## Constraints
+The file `constraints/NexysA7.xdc` defines the mapping between FPGA pins and hardware components:
+- VGA interface (R, G, B, HSYNC, VSYNC)  
+- Push buttons for direction control  
+- 7-segment display connections  
+- Clock and reset inputs  
