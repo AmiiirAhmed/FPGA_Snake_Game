@@ -1,7 +1,7 @@
 # FPGA Snake Game 🎮
 
 This project implements the classic **Snake game** on an FPGA board using **VHDL**.  
-Developed by **Ahmed Amir** and **Zakaria Souhail** under the supervision of *Sylvie Renaud (ENSEIRB)*.
+
 
 ## Overview
 The game is implemented on the **Nexys A7** development board featuring an **Artix-7 FPGA**.  
