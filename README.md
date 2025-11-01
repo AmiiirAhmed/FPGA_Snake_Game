@@ -26,5 +26,3 @@ The architecture includes:
 
 ## Author
 Ahmed Amir  
-Electronic Engineering Student — ENSEIRB / UQTR  
-[GitHub](https://github.com/ahmedamir)
