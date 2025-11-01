@@ -1,2 +1,30 @@
-# FPGA_Snake_Game
-An FPGA implementation of the classic Snake game with VGA output.
+# FPGA Snake Game 🎮
+
+This project implements the classic **Snake game** on an FPGA board using **VHDL**.  
+Developed by **Ahmed Amir** and **Zakaria Souhail** under the supervision of *Sylvie Renaud (ENSEIRB)*.
+
+## Overview
+The game is implemented on the **Nexys A7** development board featuring an **Artix-7 FPGA**.  
+It combines VGA display, push-button inputs, and 7-segment displays to create a functional hardware-based game.
+
+The architecture includes:
+- A **finite state machine (FSM)** for movement and state control.  
+- **VGA initialization** for screen drawing.  
+- A **pseudo-random generator** for food placement.  
+- **Frequency manager** for movement, display, and timer updates.  
+- **7-segment drivers** for score and time display.  
+- A **collision detection and scoring module**.
+
+## Folder Structure
+- `src/` — main VHDL source files  
+- `simu/` — testbenches and simulation files  
+- `docs/` — contains the architecture diagram of the system  
+
+## Tools Used
+- **Xilinx Vivado** for synthesis and simulation.
+- **Nexys A7 FPGA board (Artix-7)** for hardware implementation  
+
+## Author
+Ahmed Amir  
+Electronic Engineering Student — ENSEIRB / UQTR  
+[GitHub](https://github.com/ahmedamir)
