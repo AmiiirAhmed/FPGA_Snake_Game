@@ -24,5 +24,3 @@ The architecture includes:
 - **Xilinx Vivado** for synthesis and simulation.
 - **Nexys A7 FPGA board (Artix-7)** for hardware implementation  
 
-## Author
-Ahmed Amir  
